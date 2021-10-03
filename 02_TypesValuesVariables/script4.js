@@ -14,7 +14,7 @@ console.log(`count = ${count}`); // => 6: variable names are expressions
 
 //conditional operator
 let result = count > 5 ? 'count > 5' : ' count<=5';
-console.log(`result = ${result}"`);
+console.log(`result = ${result}`);
 //== and != non-strict equality
 //If the two operands are different types, interpreter attempts to convert them to suitable type.
 console.log(`15 == '15' ${15 == '15'}`); //true

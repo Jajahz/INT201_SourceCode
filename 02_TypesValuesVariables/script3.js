@@ -10,3 +10,11 @@ console.log(
   }`
 );
 console.log(`str1.charAt(str1.length-1) = ${str1.charAt(str1.length - 1)}`);
+
+let str1 = "ab";
+let str2 = "cd";
+console.log(str1.localeCompare(str2))  // Returns -1
+
+let str1 = "A";
+let str2 = "a";
+console.log(str1.localeCompare(str2))
